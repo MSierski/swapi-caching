@@ -80,7 +80,7 @@ jobs:
           command: buildAndPush
           repository: swapi-caching # efektywnie nazwa aplikacji
           dockerfile: $(Build.SourcesDirectory)/Dockerfile # wskazanie Dockerfile
-          containerRegistry: aacrcmstmsi.azurecr.io #nazwa Service Connection
+          containerRegistry: acrcmstmsi.azurecr.io #nazwa Service Connection
           tags: |
             $(Build.BuildNumber)
             latest
